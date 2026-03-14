@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown</title>
+  <link rel="stylesheet" href="../CSS/general.css">
+  <script src="ejercicio2.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Temporizador (Countdown)</h1>
+  <nav>
+    <a href="../index.html">Inicio</a>
+  </nav>
+</header>
+
+<main>
+  <p>Selecciona una fecha y hora. El botón se habilita cuando haya una fecha.</p>
+
+  <label for="fechaObjetivo">Fecha objetivo:</label>
+  <input type="datetime-local" id="fechaObjetivo" onchange="habilitarBoton()">
+  <br><br>
+
+  <button id="btnIniciar" type="button" onclick="iniciarCountdown()" disabled>Iniciar</button>
+  <button type="button" onclick="detenerCountdown()">Detener</button>
+
+  <p id="msg"></p>
+
+  <h2>
+    <span id="dias">00</span> días
+    <span id="horas">00</span> h
+    <span id="minutos">00</span> m
+    <span id="segundos">00</span> s
+  </h2>
+</main>
+
+</body>
+</html>

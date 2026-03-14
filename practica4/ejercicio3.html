@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Información</title>
+    <script src="js/ejercicio3.js"></script>
+    <a href="../index.html">Volver al inicio</a>
+</head>
+<body>
+
+    <h1>Formulario de Datos</h1>
+
+    <form>
+
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre"> <br><br>
+
+        <label for="correo">Correo: </label>
+        <input type="email" id="correo"> <br><br>
+
+        <label for="edad">Edad: </label>
+        <input type="number" id="edad"> <br><br>
+
+        <h3>Género</h3>
+        <input type="radio" name="genero" id="masculino" value="Masculino">
+        <label for="masculino">Masculino</label> <br>
+
+        <input type="radio" name="genero" id="femenino" value="Femenino">
+        <label for="femenino">Femenino</label> <br>
+
+        <input type="radio" name="genero" id="otro" value="Otro">
+        <label for="otro">Otro</label> <br><br>
+
+        <label for="fecha">Fecha de nacimiento: </label>
+        <input type="date" id="fecha"> <br><br>
+
+        <label for="color">Color favorito: </label>
+        <input type="color" id="color"> <br><br>
+
+        <input type="button" value="Enviar" onclick="mostrarDatos()">
+
+    </form>
+
+    <h2>Información recibida:</h2>
+    <p id="resultado"></p>
+
+</body>
+</html>

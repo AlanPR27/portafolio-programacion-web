@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas del MCU</title>
+    <a href="../index.html">Volver al inicio</a>
+</head>
+<body>
+
+    <h1>Películas del MCU</h1>
+    <h1>h1</h1>
+
+    <h2>Introducción</h2>
+    <h2>h2</h2>
+
+    <h3>Fases y sagas</h3>
+    <h3>h3</h3>
+
+    <h4>Orden cronologico</h4>
+    <h4>h4</h4>
+
+    <h5>Orden de salida</h5>
+    <h5>h5</h5>
+
+    <h6>Escenas Postcreditos</h6>
+    <h6>h6</h6>
+
+    <h1>Listas</h1>
+
+    <h2>Lista ordenada (10 películas)</h2>
+    <ol>
+        <li>Iron Man (2008)</li>
+        <li>The Incredible Hulk (2008)</li>
+        <li>Iron Man 2 (2010)</li>
+        <li>Thor (2011)</li>
+        <li>Captain America: The First Avenger (2011)</li>
+        <li>The Avengers (2012)</li>
+        <li>Guardians of the Galaxy (2014)</li>
+        <li>Avengers: Age of Ultron (2015)</li>
+        <li>Captain America: Civil War (2016)</li>
+        <li>Avengers: Endgame (2019)</li>
+    </ol>
+
+    <h2>Lista no ordenada (10 personajes del MCU)</h2>
+    <ul>
+        <li>Tony Stark / Iron Man</li>
+        <li>Steve Rogers / Captain America</li>
+        <li>Thor</li>
+        <li>Natasha Romanoff / Black Widow</li>
+        <li>Bruce Banner / Hulk</li>
+        <li>Clint Barton / Hawkeye</li>
+        <li>Peter Parker / Spider-Man</li>
+        <li>T’Challa / Black Panther</li>
+        <li>Doctor Strange</li>
+        <li>Carol Danvers / Captain Marvel</li>
+    </ul>
+
+    <h2>Lista descriptiva (5 elementos)</h2>
+    <dl>
+        <dt>Fase 1</dt>
+            <dd>- Presenta a los héroes principales y culmina con The Avengers.</dd>
+        <dt>Fase 2</dt>
+            <dd>- Expande el universo y introduce nuevos equipos como Guardians of the Galaxy.</dd>
+        <dt>Fase 3</dt>
+            <dd>- Se centra en el conflicto interno y termina con Infinity War y Endgame.</dd>
+        <dt>Infinity Saga</dt>
+            <dd>- Saga que conecta varias películas con las Gemas del Infinito y Thanos.</dd>
+        <dt>Multiverse Saga</dt>
+            <dd>- Explora realidades alternas y consecuencias del multiverso.</dd>
+    </dl>
+
+    <h2>Formulario</h2>
+    <form>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"> <br>
+
+        <label for="pelicula">Película favorita del MCU: </label>
+        <input type="text" name="pelicula" id="pelicula" placeholder="Ej. Endgame"> <br>
+
+        <label for="personaje">Personaje favorito: </label>
+        <input type="text" name="personaje" id="personaje" placeholder="Ej. Iron Man"> <br>
+
+        <label for="contrasena">Contraseña: </label>
+        <input type="password" name="contrasena" id="contrasena"> <br>
+
+        <label for="edad">Edad: </label>
+        <input type="number" name="edad" id="edad" min="0" max="120" step="1" value="18"> <br>
+
+        <label for="fecha">Fecha para tu maratón: </label>
+        <input type="date" name="fecha" id="fecha"> <br>
+
+ 
+        <h3>¿Qué tipo de contenido del MCU te gusta? checkbox</h3>
+        <input type="checkbox" name="gustos" value="accion">
+        <label for="gustos">Acción</label> <br>
+
+        <input type="checkbox" name="gustos" value="comedia">
+        <label for="gustos">Comedia</label> <br>
+
+        <input type="checkbox" name="gustos" value="cienciaficcion">
+        <label for="gustos">Ciencia ficción</label> <br>
+
+        <input type="checkbox" name="gustos" value="drama">
+        <label for="gustos">Drama</label> <br>
+
+        <h3>¿Qué saga prefieres? (elige una)</h3>
+        <input type="radio" name="saga" value="fase1">
+        <label for="saga">Fase 1</label> <br>
+
+        <input type="radio" name="saga" value="fase2">
+        <label for="saga">Fase 2</label> <br>
+
+        <input type="radio" name="saga" value="fase3">
+        <label for="saga">Fase 3</label> <br>
+
+        <input type="radio" name="saga" value="multiverso">
+        <label for="saga">Multiverse Saga</label> <br>
+
+        <!-- Email -->
+        <label for="correo">Correo: </label>
+        <input type="email" name="correo" id="correo"> <br>
+
+        <!-- Archivo -->
+        <label for="archivo">Sube una imagen o archivo relacionado (opcional): </label>
+        <input type="file" name="archivo" id="archivo"> <br>
+
+        <!-- Color -->
+        <input type="color" name="color" id="color">
+        <label for="color">Color favorito</label> <br>
+
+        <!-- Slider (range) -->
+        <label for="rango">¿Qué tan fan eres del MCU? (0 a 10): </label>
+        <input type="range" name="rango" id="rango" min="0" max="10" value="5" step="1"> <br>
+
+        <!-- Submit -->
+        <input type="submit" value="enviar">
+    </form>
+
+</body>
+</html>
