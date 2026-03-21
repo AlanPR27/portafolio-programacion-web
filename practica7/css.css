@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: #f8fafc;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: rgba(15, 23, 42, 0.90);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+    color: #93c5fd;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: rgba(30, 41, 59, 0.9);
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #bfdbfe;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #60a5fa;
+    border-radius: 8px;
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: rgba(22, 163, 74, 0.2);
+    border-left: 5px solid #22c55e;
+    border-radius: 8px;
+    color: #bbf7d0;
+    font-weight: bold;
+}
+
+.error {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: rgba(220, 38, 38, 0.2);
+    border-left: 5px solid #ef4444;
+    border-radius: 8px;
+    color: #fecaca;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background-color: #1e293b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px;
+    font-size: 17px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #334155;
+}
+
+tr:nth-child(even) {
+    background-color: #334155;
+}
+
+tr:hover {
+    background-color: #475569;
+}
+
+a {
+    display: inline-block;
+    margin-top: 25px;
+    color: #facc15;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
